@@ -1,0 +1,5 @@
+To install:
+sudo insmod hello.ko
+
+To Remove:
+sudo rmmod hello

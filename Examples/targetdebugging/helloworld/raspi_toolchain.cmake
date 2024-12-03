@@ -1,0 +1,6 @@
+SET(CMAKE_SYSTEM_NAME Linux)
+SET(CMAKE_SYSTEM_PROCESSOR arm)
+SET(BUILDROOT_PATH /media/johnos/032aca7c-dd77-45e0-b8d6-108f080a549d/buildroot/buildroot-2023.02.8)
+SET(CMAKE_C_COMPILER ${BUILDROOT_PATH}/output/host/bin/arm-buildroot-linux-gnueabihf-cc)
+SET(CMAKE_CXX_COMPILER ${BUILDROOT_PATH}/output/host/bin/arm-buildroot-linux-gnueabihf-g++)
+SET(CMAKE_FIND_ROOT_PATH ${BUILDROOT_PATH}/output/target)

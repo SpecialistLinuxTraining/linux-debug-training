@@ -1,0 +1,8 @@
+To build the module:
+make
+
+To install:
+sudo insmod get_current_example.ko
+
+To Remove:
+sudo rmmod get_current_example

@@ -1,0 +1,1 @@
+In order to successfully read from shared memory using the read_example, the write_example needs to be run first to create the shared memory segment and write data into it. The read_example reads from the existing shared memory segment created by write_example.
