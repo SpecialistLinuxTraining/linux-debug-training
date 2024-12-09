@@ -86,9 +86,33 @@ Once the Makefile is created we can build the binary by typing: make
 
 ## Prerequisites
 
-In order to build a kernel module we must first install the kernel headers for our current version of the kernel
+Install the necessary compilation tools:
+
+```bash
+sudo apt-get install build-essential
+```
+
+In order to build a kernel module we must install the kernel headers for our current version of the kernel.
 
 ```bash
 sudo apt-get install linux-headers-$(uname -r)
 ```
 
+Add Makefile to build the kernel module.
+
+```
+obj-m += hello.o
+
+all:
+        make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+
+clean:
+        make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+```
+
+!!!note
+	Replace the "hello.o" with the name of your kernel module.
+
+To build the kernel module, use `make`.
+
+To clean the kernel module, use `make clean`.
