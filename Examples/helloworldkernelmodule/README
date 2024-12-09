@@ -1,3 +1,9 @@
+Build:
+make
+
+Clean:
+make clean
+
 To install:
 sudo insmod hello.ko
 
