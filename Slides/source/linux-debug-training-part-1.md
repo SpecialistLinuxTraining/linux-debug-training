@@ -4,7 +4,7 @@ theme: uncover
 size: 16:9
 paginate: true
 title: Linux Debug Training
-footer: "[Linux Debug Training](https://github.com/SpecialistLinuxTraining/linux-debug-training) © 2024 [John O'Sullivan](https://www.linkedin.com/in/john-o-15b17a34/) | [Manas Marawaha](https://www.linkedin.com/in/manasmarwah/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+footer: "[Linux Debug Training](https://github.com/SpecialistLinuxTraining/linux-debug-training) © 2024-2025 [John O'Sullivan](https://www.linkedin.com/in/john-o-15b17a34/) | [Manas Marawaha](https://www.linkedin.com/in/manasmarwah/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
 <style>
   section { background-image: url('../../Resources/png/background.png'); background-size: contain; font-family: 'Times New Roman', serif !important; background-color: #fff; text-align: left; top: 20; font-size: 26px;}
@@ -228,6 +228,17 @@ li {
   width: 100%;
 }
 
+.course-title a {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.course-title a:hover {
+  text-decoration: underline; 
+  color: #003f80;
+}
+
 .module-list {
   list-style-type: none;
   padding: 0;
@@ -269,10 +280,12 @@ li {
 
 <span> **Presenters**: [John O'Sullivan](https://www.linkedin.com/in/john-o-15b17a34/) and [Manas Marawaha](https://www.linkedin.com/in/manasmarwah/) </span>
 
-<span>© Copyright 2024, John O'Sullivan and Manas Marawaha
+<span>© Copyright 2024-2025, John O'Sullivan and Manas Marawaha
 Licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  (CC BY-SA 4.0)  </span>
 
 <span> **Document source**: https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides </span>
+
+<span> **Video Demonstrations**: https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F </span>
 
 </div>
 
@@ -320,7 +333,7 @@ Licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses
 
 ---
 # License Information
-<span>© Copyright 2024, John O'Sullivan and Manas Marawaha
+<span>© Copyright 2024-2025, John O'Sullivan and Manas Marawaha
 Licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  (CC BY-SA 4.0) 
 https://creativecommons.org/licenses/by-sa/4.0/ </span>
 
@@ -347,7 +360,9 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
 ---
 # Course Outline
 <div class="course-outline-container">
-<div class="course-title"> Linux Debug Training (Part-1)</div>
+<div class="course-title">
+  <a href="https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F" target="_blank">Linux Debug Training (Part-1)</a>
+</div>
   <ul class="module-list">
     <li class="module-item">
       <span>Module 1:</span>
@@ -383,16 +398,20 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
 
 ---
 <h1>Course information</h1>
+<br>
+<br>
 
 - Example code demonstrated in the course is available on the [GitHub repository](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Examples).
 
-- For document sources, please refer to this [link](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides).
+- For **document source**, please refer to this [link](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides).
 
-- Most code demonstrations use Ubuntu OS 22.04. You can download and install Ubuntu 22.04 using this [link](https://releases.ubuntu.com/jammy/).
+- For video demonstration of **Linux Debug Training (Part-1)**, please refer to this [Link](https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F)
+
+- Most code demonstrations use **Ubuntu OS 22.04**. You can download and install Ubuntu 22.04 using this [link](https://releases.ubuntu.com/jammy/).
 
 - Please review the [instructions](https://github.com/SpecialistLinuxTraining/linux-debug-training/blob/main/References/building_course_examples.md) for building the course examples before proceeding.
 
-- We value your feedback and suggestions! Please share them via email at specialistlinuxtraining@gmail.com.
+- We value your **feedback and suggestions**! Please share them via email at specialistlinuxtraining@gmail.com.
 
 - For corrections on the training material, feel free to raise [issues](https://github.com/SpecialistLinuxTraining/linux-debug-training/issues) and [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) in the GitHub repository.
 
@@ -2496,7 +2515,7 @@ Segmentation fault (core dumped)
 
 <span> **Feedback**: specialistlinuxtraining@gmail.com </span>
 
-<span>© Copyright 2024, John O'Sullivan and Manas Marawaha
+<span>© Copyright 2024-2025, John O'Sullivan and Manas Marawaha
 Licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  (CC BY-SA 4.0)  </span>
 
 </div>
