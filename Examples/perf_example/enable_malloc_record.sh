@@ -1,9 +1,8 @@
+PERF=/mnt/500GB/linux-6.5/tools/perf/perf
 echo "Add the probe point"
-perf probe -x /usr/lib/x86_64-linux-gnu/libc.so.6 --add=malloc
-echo "Enable the newly added probe"
-echo 1 > /sys/kernel/tracing/events/probe_libc/malloc/enable
-echo "Enable tracing"
-echo 1 > /sys/kernel/tracing/tracing_on
-echo "Record the events using record and the configured probe"
-perf record -e 'probe_libc:malloc' -a
-
+${PERF} probe -x /usr/lib/x86_64-linux-gnu/libc.so.6 --add=malloc
+${PERF} record -e probe_libc:malloc -a
+sleep 100
+${PERF} report
+echo "Delete the malloc probe"
+${PERF} probe -x /usr/lib/x86_64-linux-gnu/libc.so.6 --del malloc

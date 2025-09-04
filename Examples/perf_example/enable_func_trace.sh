@@ -1,5 +1,6 @@
+PERF=/mnt/500GB/linux-6.5/tools/perf/perf
 echo "Add the probe point"
-perf probe  -x ./perf_example get_value_entry=get_value # create a probe get_value_entry in /sys/kernel/tracing/events/probe_perf_example
+${PERF} probe  -x ./perf_example get_value_entry=get_value # create a probe get_value_entry in /sys/kernel/tracing/events/probe_perf_example
 echo "Enable the newly added probe get_value_entry"
 echo 1 > /sys/kernel/tracing/events/probe_perf_example/get_value_entry/enable
 echo "Enable tracing"

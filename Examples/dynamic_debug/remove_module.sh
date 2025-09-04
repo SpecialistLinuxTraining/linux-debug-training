@@ -1,0 +1,1 @@
+sudo rmmod dynamic_debug_example

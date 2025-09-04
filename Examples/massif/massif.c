@@ -1,39 +1,45 @@
 #include <stdlib.h>
 
+#define CAUSE_MEM_LEAK
+
 void g(void)
 {
-	malloc(4000);
+	int *ptr = malloc(4000);
+#ifndef CAUSE_MEM_LEAK
+	free(ptr);
+#endif
 }
 
 void f(void)
 {
-	malloc(2000);
+	int *ptr = malloc(2000);
 	g();
+#ifndef CAUSE_MEM_LEAK
+	free(ptr);
+#endif
 }
 
 int main() {
-    int *ptr1 = malloc(100 * sizeof(int)); // Allocate memory
-    int *ptr2 = malloc(200 * sizeof(int)); // Allocate more memory
+    int *ptr1 = malloc(100 * sizeof(int));
+    int *ptr2 = malloc(200 * sizeof(int));
 
-    // Use allocated memory
     for (int i = 0; i < 100; ++i) {
         ptr1[i] = i;
     }
 
-    free(ptr1); // Free memory
-    ptr1 = NULL; // Avoid dangling pointer
+    free(ptr1);
+    ptr1 = NULL;
 
     f();
 
     g();
 
-    // Use allocated memory
     for (int i = 0; i < 200; ++i) {
         ptr2[i] = i;
     }
 
-    free(ptr2); // Free memory
-    ptr2 = NULL; // Avoid dangling pointer
+    free(ptr2);
+    ptr2 = NULL;
 
     return 0;
 }
