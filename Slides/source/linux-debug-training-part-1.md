@@ -80,7 +80,7 @@ li {
 
 .logo-container {
   position: absolute;
-  top: 43%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -270,7 +270,7 @@ li {
 
 <!-- _class: no-footer -->
 
-<h1> <br>Linux Debug Training </h1>
+<h1> <br>Linux Debug Training <br> Part-1</h1>
 
 <div class="logo-container">
 <img height="225" src="../../Resources/png/logo_penguin.png" alt="Logo">
@@ -356,6 +356,24 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
 - **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 - **No additional restrictions** - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+---
+<h1>Course information</h1>
+<br>
+<br>
+
+- Example code demonstrated in the course is available on the [GitHub repository](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Examples).
+
+- For **document source**, please refer to this [link](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides).
+
+- For video demonstration of **Linux Debug Training (Part-1)**, please refer to this [Link](https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F)
+
+- Most code demonstrations use **Ubuntu OS 22.04**. You can download and install Ubuntu 22.04 using this [link](https://releases.ubuntu.com/jammy/).
+
+- Please review the [instructions](https://github.com/SpecialistLinuxTraining/linux-debug-training/blob/main/References/building_course_examples.md) for building the course examples before proceeding.
+
+- We value your **feedback and suggestions**! Please share them via email at specialistlinuxtraining@gmail.com.
+
+- For corrections on the training material, feel free to raise [issues](https://github.com/SpecialistLinuxTraining/linux-debug-training/issues) and [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) in the GitHub repository.
 
 ---
 # Course Outline
@@ -397,23 +415,15 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
 </div>
 
 ---
-<h1>Course information</h1>
-<br>
-<br>
+<h1>Part-1 Synopsis</h1>
 
-- Example code demonstrated in the course is available on the [GitHub repository](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Examples).
+- Module 1 began with the Linux OS system itself, discussing the fundamental architecture and structure of the Linux operating system.
 
-- For **document source**, please refer to this [link](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides).
+- In the second module of this course, we explored the Basic Linux Analysis and Observability Tools. We demonstrated how these foundational tools served as the first level of debugging and how they provided insights into the system's state and behavior.
 
-- For video demonstration of **Linux Debug Training (Part-1)**, please refer to this [Link](https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F)
+- The third module of this course looked at how we could dissect application binaries with tools like binutils and how we could employ powerful debugging applications like GDB for more in-depth analysis.
 
-- Most code demonstrations use **Ubuntu OS 22.04**. You can download and install Ubuntu 22.04 using this [link](https://releases.ubuntu.com/jammy/).
-
-- Please review the [instructions](https://github.com/SpecialistLinuxTraining/linux-debug-training/blob/main/References/building_course_examples.md) for building the course examples before proceeding.
-
-- We value your **feedback and suggestions**! Please share them via email at specialistlinuxtraining@gmail.com.
-
-- For corrections on the training material, feel free to raise [issues](https://github.com/SpecialistLinuxTraining/linux-debug-training/issues) and [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) in the GitHub repository.
+- The fourth module was dedicated to addressing common memory issues in user-space applications, along with exploring related tools such as valgrind and sanitizers which are designed to detect and resolve these issues before the code is deployed.
 
 ---
 <!-- Module 1 - Linux Operating System Architecture -->
@@ -2509,7 +2519,7 @@ Segmentation fault (core dumped)
   <img height="225" src="../../Resources/png/logo_penguin.png" alt="Logo">
 </div>
 
-<h1> <br>Linux Debug Training </h1>
+<h1> <br>Linux Debug Training <br> Part-1</h1>
 
 <div class="bottom-container">
 
