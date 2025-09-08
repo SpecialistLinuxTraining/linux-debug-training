@@ -287,7 +287,7 @@ Licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses
 
 <span> **Part-1 Demonstrations**: https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F </span>
 
-<span> **Part-2 Demonstrations**: </span>
+<span> **Part-2 Demonstrations**: https://www.udemy.com/course/linux-debug-training-part-2/?referralCode=1FAF95060F47194A895F </span>
 </div>
 
 ---

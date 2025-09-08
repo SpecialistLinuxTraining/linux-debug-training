@@ -80,7 +80,7 @@ li {
 
 .logo-container {
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -285,7 +285,9 @@ Licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses
 
 <span> **Document source**: https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides </span>
 
-<span> **Video Demonstrations**: https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F </span>
+<span> **Part-1 Demonstrations**: https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F </span>
+
+<span> **Part-2 Demonstrations**: https://www.udemy.com/course/linux-debug-training-part-2/?referralCode=1FAF95060F47194A895F </span>
 
 </div>
 
