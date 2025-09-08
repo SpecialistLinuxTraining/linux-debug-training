@@ -1,5 +1,6 @@
 # linux-debug-training
-<img width="897" height="1090" alt="image" src="https://github.com/user-attachments/assets/43faffa9-f52c-4b98-ae41-a5e414a0dc96" />
+<img width="299" height="362" alt="image" src="https://github.com/user-attachments/assets/dd2f2d80-8aa0-4765-bf3c-41505f3420ef" />
+
 
 
 ## Introduction
