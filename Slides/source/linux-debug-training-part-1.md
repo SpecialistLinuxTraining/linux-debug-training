@@ -363,13 +363,16 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
 <br>
 <br>
 
-- Example code demonstrated in the course is available on the [GitHub repository](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Examples).
+- Example code demonstrated in the course is available on the [GitHub](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Examples).
 
 - For **document source**, please refer to this [link](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides).
 
-- For video demonstration of **Linux Debug Training (Part-1)**, please refer to this [Link](https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F)
+- For video demonstration, please refer to the following links. 
+  - [**Linux Debug Training (Part-1)**](https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F)
+  - [**Linux Debug Training (Part-2)**](https://www.udemy.com/course/linux-debug-training-part-2/?referralCode=1FAF95060F47194A895F)
+  
 
-- Most code demonstrations use **Ubuntu OS 22.04**. You can download and install Ubuntu 22.04 using this [link](https://releases.ubuntu.com/jammy/).
+- Demonstrations in the course use **Ubuntu (OS 22.04)**, **Arch Linux ( 2025.08.01)** and a Buildroot based installation on the **Raspberry-Pi**.
 
 - Please review the [instructions](https://github.com/SpecialistLinuxTraining/linux-debug-training/blob/main/References/building_course_examples.md) for building the course examples before proceeding.
 
@@ -400,7 +403,7 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
       <span>Module 4:</span>
       <p>Memory Issues in Linux Applications</p>
     </li>
-    <div class="course-title"> Linux Debug Training (Part-2)</div>
+    <div class="course-title"><a href="https://www.udemy.com/course/linux-debug-training-part-2/?referralCode=1FAF95060F47194A895F" target="_blank">Linux Debug Training (Part-2)</a></div>
     <li class="module-item">
       <span>Module 5:</span>
       <p>Tracing in Linux</p>

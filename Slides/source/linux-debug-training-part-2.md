@@ -353,23 +353,30 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
 
 ---
 <h1>Course information</h1>
+<br>
+<br>
 
-- Example code demonstrated in the course is available on the [GitHub repository](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Examples).
+- Example code demonstrated in the course is available on the [GitHub](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Examples).
 
-- For document source, please refer to this [link](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides).
+- For **document source**, please refer to this [link](https://github.com/SpecialistLinuxTraining/linux-debug-training/tree/main/Slides).
 
-- Demonstrations in this part of the course use Ubuntu (OS 22.04), Arch Linux ( 2025.08.01) and a Buildroot based installation on the Raspberry-Pi.
+- For video demonstration, please refer to the following links. 
+  - [**Linux Debug Training (Part-1)**](https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F)
+  - [**Linux Debug Training (Part-2)**](https://www.udemy.com/course/linux-debug-training-part-2/?referralCode=1FAF95060F47194A895F)
+  
+
+- Demonstrations in the course use **Ubuntu (OS 22.04)**, **Arch Linux ( 2025.08.01)** and a Buildroot based installation on the **Raspberry-Pi**.
 
 - Please review the [instructions](https://github.com/SpecialistLinuxTraining/linux-debug-training/blob/main/References/building_course_examples.md) for building the course examples before proceeding.
 
-- We value your feedback and suggestions! Please share them via email at specialistlinuxtraining@gmail.com.
+- We value your **feedback and suggestions**! Please share them via email at specialistlinuxtraining@gmail.com.
 
 - For corrections on the training material, feel free to raise [issues](https://github.com/SpecialistLinuxTraining/linux-debug-training/issues) and [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) in the GitHub repository.
 
 ---
 # Course Outline
 <div class="course-outline-container">
-<div class="course-title"> Linux Debug Training (Part-1)</div>
+<div class="course-title"> <a href="https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F" target="_blank">Linux Debug Training (Part-1)</a></div>
   <ul class="module-list">
     <li class="module-item">
       <span>Module 1:</span>
@@ -387,7 +394,7 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
       <span>Module 4:</span>
       <p>Memory Issues in Linux Applications</p>
     </li>
-    <div class="course-title"> Linux Debug Training (Part-2)</div>
+    <div class="course-title"><a href="https://www.udemy.com/course/linux-debug-training-part-2/?referralCode=1FAF95060F47194A895F" target="_blank">Linux Debug Training (Part-2)</a></div>
     <li class="module-item">
       <span>Module 5:</span>
       <p>Tracing in Linux</p>
