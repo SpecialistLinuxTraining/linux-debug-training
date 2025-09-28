@@ -428,7 +428,7 @@ https://creativecommons.org/licenses/by-sa/4.0/ </span>
 - Module five takes a look at tracing in Linux. We cover userspace tools like strace, ltrace, uprobe and perf. We also look at kernel space tools like Kprobe, Perf, ftrace, eBPF, and LTTng.
 
 - In the sixth module of this course, we will explore profiling in Linux looking at tools like massif, heaptrack and memusage to profile memory. We will investigate the use of callgrind, cachegrind and perf-stat for CPU and hardware profiling. We will also look at stacktrace profiling using eBPF profile, gprof and sysprof. And, we will look at how data visualization tools can complement our analysis.
-- In the seventh and final module we take a comprehensive look at Kernel debugging, investigating Kernel OPPS, reviewing logging and SysRq, and using tools like KGDB. We will show Kernel recovery using Kexec and Kdump. And we will also examine many of the new tools that have emerged in recent years like: UBSAN, KCSAN and KASAN.
+- In the seventh and final module we take a comprehensive look at Kernel debugging, investigating Kernel OOPS, reviewing logging and SysRq, and using tools like KGDB. We will show Kernel recovery using Kexec and Kdump. And we will also examine many of the new tools that have emerged in recent years like: UBSAN, KCSAN and KASAN.
 
 ---
 
@@ -3537,7 +3537,7 @@ add-auto-load-safe-path /path/to/linux-build
 - In module five we took a look at tracing in Linux. We covered userspace tools like strace, ltrace, uprobe and perf. We also looked at kernel space tools like Kprobe, Perf, ftrace, eBPF, and LTTng.
 
 - In module six, we explored profiling in Linux looking at tools like massif, heaptrack and memusage to profile memory. We looked at data visualization tools like flame graphs and histograms. We investigated the use of callgrind, cachegrind and perf-stat for CPU and hardware profiling. We will also looked at stacktrace profiling using eBPF profile, gprof and sysprof. 
-- In the seventh and final module we took a detailed look at Kernel debugging. We reviewed the various debugging related Kernel configuration options. We investigated Kernel OPPS, reviewed logging and SysRq, and demonstrated the use of tools like KGDB. We showed Kernel recovery using Kexec and Kdump. And we also examined many of the new suite of sanitizer tools that have emerged in recent years like: UBSAN, KCSAN and KASAN.
+- In the seventh and final module we took a detailed look at Kernel debugging. We reviewed the various debugging related Kernel configuration options. We investigated Kernel OOPS, reviewed logging and SysRq, and demonstrated the use of tools like KGDB. We showed Kernel recovery using Kexec and Kdump. And we also examined many of the new suite of sanitizer tools that have emerged in recent years like: UBSAN, KCSAN and KASAN.
 
 ---
 
