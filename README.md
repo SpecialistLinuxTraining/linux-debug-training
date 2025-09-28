@@ -11,13 +11,7 @@ But with great complexity comes great challenges. Debugging these systems is an 
 
 Acquiring these debugging skills is no easy feat. It demands not only technical expertise but also hands-on experience with the tools and processes that define the Linux ecosystem. And that's where this course steps in.
 
-This course brings together all the essential material in one place, simplifying the complex and equipping you with the skills you need to excel. You'll master tools like GDB, learn to analyze core dumps, and understand how to debug segmentation faults and shared libraries. Whether you're troubleshooting a single device or an entire system, these skills will set you apart.
-
-By the end of this journey, you'll be prepared to tackle the toughest debugging challenges in the Linux world, contributing to the technologies that shape our lives. Ready to dive in?
-
-Join the course today! Access it via this link: https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F
-
-
+This course brings together all the essential material in one place, simplifying the complex debugging challenges and equipping you with the skills you need to excel. 
 
 ## Course Description
 
@@ -26,6 +20,16 @@ In Part 1 of this course, you will learn the essential skills for debugging Linu
 Part 2 builds on that foundation and takes you into the advanced areas of Linux debugging. This is where you move beyond the basics and begin to explore the powerful techniques used by senior engineers to solve the most difficult and elusive problems in complex Linux systems.
 
 You will learn how to trace both user space and kernel space activity, giving you deep insight into how processes and the kernel interact at runtime. You will gain expertise in advanced profiling techniques for memory, CPU, and hardware performance analysis, as well as approaches for visualizing data to better understand where performance bottlenecks occur. Finally, you will develop the ability to debug at the kernel level, diagnosing kernel crashes and runtime errors, using interactive kernel debuggers, and working with modern diagnostic tools like KASAN, UBSAN, and KCSAN. These skills will give you the confidence to fix problems that others may find impossible to diagnose.
+
+By the end of this journey, you'll be prepared to tackle the toughest debugging challenges in the Linux world, contributing to the technologies that shape our lives. Ready to dive in?
+
+Join the course today! Access it via following links:
+
+**Linux Debug Training (Part-1):** https://www.udemy.com/course/linux-debug-training-part-1/?referralCode=6534D858AEF9555AB23F
+
+**Linux Debug Training (Part-2):** 
+https://www.udemy.com/course/linux-debug-training-part-2/?referralCode=1FAF95060F47194A895F 
+
 
 ## Stay Relevant for Our Evolving World
 
